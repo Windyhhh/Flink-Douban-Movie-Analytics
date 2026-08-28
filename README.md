@@ -54,6 +54,15 @@ Flink-Douban-Movie-Analytics/
 
 ---
 
+
+## Results
+
+<div align="center">
+  <img src="visualizations/3_演员影响力.png" alt="Top actor influence" width="70%"/>
+  <img src="visualizations/4_类型组合偏好.png" alt="Genre combination preference" width="70%"/>
+</div>
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
