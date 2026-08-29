@@ -63,6 +63,41 @@ Flink-Douban-Movie-Analytics/
 </div>
 
 ---
+## 技术实现细节
+
+### 架构概览
+
+项目采用模块化设计，核心目录包括：**data, docs, output, reports, scripts, src, visualizations**。
+
+### 关键函数
+
+- `get_chinese_font`
+
+### 技术栈与依赖
+
+**核心框架/库**：NumPy, matplotlib, pandas, seaborn
+
+**主要 import**：
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+from matplotlib import font_manager
+import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
+import pandas as pd
+import matplotlib.pyplot as plt
+```
+
+### 实现要点
+
+- 通过 `get_chinese_font` 等函数实现核心流程编排
+- 基于 NumPy, matplotlib, pandas 构建，技术栈成熟稳定
+- 代码结构清晰，模块间低耦合，便于扩展和维护
+
+---
 ## License
 
 MIT — free to use, modify and distribute.
