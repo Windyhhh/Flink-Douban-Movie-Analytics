@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 Flink-Douban-Movie-Analytics
+# 豆瓣电影分析 | Flink-Douban-Movie-Analytics
 
 ### Apache Flink analytics on Douban movie data.
 
